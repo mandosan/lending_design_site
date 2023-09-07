@@ -1,0 +1,299 @@
+        .content {
+            max-width: 338px;
+            margin: auto;
+            /* display: flex;
+ flex-direction: column;
+ align-items: center; */
+        }
+        
+        .header-nav,
+        .button_header,
+        .projects_column2,
+        .special-batton,
+        .measurement-label,
+        .measurement_checkbox,
+        .measurement_lastblock,
+        .REVIEWS,
+        .measurement_background,
+        .TEAM::after,
+        .list_team,
+        .team_phohto_position,
+        .contacts_button_icon,
+        .CONTACTS::after,
+        footer,
+        .title_contacts {
+            display: none;
+        }
+        
+        .logo {
+            margin-right: 25px;
+        }
+        
+        .link_uderline {
+            margin: 0;
+        }
+        
+        .section-home {
+            width: 100%;
+            height: 475px;
+        }
+        
+        .title_home {
+            font-size: 23px;
+            line-height: 132.83%;
+            width: 100%;
+        }
+        
+        .text_home {
+            font-size: 14px;
+            line-height: 135.84%;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        
+        .button_home {
+            width: 338px;
+            height: 51px;
+            margin-top: 25px;
+            margin-right: 0px;
+        }
+        
+        .PROJECTS {
+            padding-top: 0px;
+            height: 700px;
+        }
+        
+        .section-projects {
+            height: 100%;
+        }
+        
+        .projects_column1 {
+            margin-top: 36px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            ;
+        }
+        
+        .text_projects {
+            padding-top: 22px;
+            width: 100%;
+            font-size: 11px;
+            line-height: 17px;
+            text-align: center;
+        }
+        
+        .title_projects {
+            width: 100%;
+            font-size: 22px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: -0.07em;
+        }
+        
+        .projects_picture_media {
+            background-image: url(../images/projects_media.png);
+            width: 100%;
+            height: 240px;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .wrapper {
+            width: 100%;
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat (2, 80px);
+        }
+        
+        .subtitle {
+            font-size: 14px;
+            line-height: 19px;
+        }
+        
+        .text-subtitle {
+            line-height: 18px;
+        }
+        
+        .projects_picture_media img:nth-child(2) {
+            transform: scale(-1, 1);
+        }
+        
+        .MEASUREMENT {
+            height: 800px;
+            margin-top: 0px;
+            background-color: black;
+            position: relative;
+        }
+        
+        .photo_measurement {
+            background-image: url(../images/MEASURENTlittle.png);
+            width: 100%;
+            height: 207px;
+            margin-top: 40px;
+        }
+        
+        .button_measurement {
+            width: 55px;
+            height: 55px;
+        }
+        
+        .line {
+            margin-top: 28px;
+        }
+        
+        .text_measurement {
+            color: white;
+            width: 100%;
+            margin-top: 15px;
+            font-size: 11px;
+            line-height: 169.8%;
+        }
+        
+        .measurement_form_media {
+            display: block;
+        }
+        
+        .measurement_lastblock_form {
+            display: flex;
+            flex-direction: column;
+            background: black;
+            box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            height: 100%;
+            padding-top: 60px;
+        }
+        
+        .measurement_lastblock_form .text-input {
+            width: 100%;
+            color: #FFFFFF;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            padding-right: 200px;
+            background-color: transparent;
+            margin-bottom: 40px;
+        }
+        
+        .measurement_lastblock_form .checkbox {
+            margin-left: 0;
+            margin-top: -31px;
+            color: #FFFFFF;
+        }
+        
+        .measurement_lastblock_form .submit_button {
+            margin-right: 0;
+            margin-top: 75px;
+            width: 100%;
+        }
+        
+        .TEAM {
+            background-image: none;
+            width: 100%;
+            height: 100%;
+            margin-top: 2000px;
+        }
+        
+        .title_team {
+            font-size: 22px;
+            line-height: 30px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .team_picture_media {
+            display: block;
+            width: 100%;
+            margin-top: 24px;
+        }
+        
+        .section_team_list {
+            margin-right: 0;
+        }
+        
+        .title_measurement_color {
+            margin-top: 58px;
+        }
+        
+        .measurement_REPAIR {
+            margin-top: 40px;
+            width: 100%;
+            flex-direction: column;
+            height: 1580px;
+        }
+        
+        .REPAIR_img img {
+            width: 100%;
+            height: 365px;
+        }
+        /* .REPAIR_img img:nth-child(2) {
+    margin-top: 70px;
+} */
+        
+        .REPAIR_text {
+            margin-left: 0px;
+            width: 270px;
+            height: 286px;
+        }
+        
+        .REPAIR_p {
+            width: 190px;
+            height: 40px;
+            margin-left: 0;
+            padding-top: 10px;
+        }
+        
+        .CONTACTS {
+            width: 100%;
+            margin: 0;
+            background: black;
+            height: 1000px;
+            padding-top: 0px;
+            padding-left: 0px;
+            margin-top: -100px;
+        }
+        
+        .form_contacts {
+            margin-top: 120px;
+            box-shadow: none;
+            width: 100%;
+            height: 540px;
+            padding-top: 34px;
+        }
+        
+        .form_contacts .input {
+            width: 100%;
+            flex-direction: column;
+        }
+        
+        .contacts_img {
+            margin-top: 0px;
+            width: 100%;
+        }
+        
+        .team_picture_media {
+            background-image: url(../images/TEAMmedia.png);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .contacts_title_media {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 138.6%;
+        }
+        
+        .contacts_button_icon_media {
+            display: flex;
+            margin-top: 26px;
+            width: 71px;
+            justify-content: space-between;
+        }
+        
+        .contacts_button_icon_media button {
+            display: block;
+        }
